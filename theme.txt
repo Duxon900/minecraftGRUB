@@ -1,0 +1,35 @@
+# Main options
+title-text: ""
+desktop-image: "background.png"
+terminal-font: "Droid Sans Mono Regular 11"
+terminal-box: "terminal_box_*.png"
+
+# Boot menu
++ boot_menu {
+	left = 50%-300
+	top = 50%-100
+	width = 600
+	height = 289
+
+	item_padding = 20
+	item_spacing = 20
+	item_height = 30
+	item_font = "Minecraft Regular 24"
+
+	selected_item_color = "#FFFF00"
+	selected_item_pixmap_style = "button_selected_*.png"
+
+	item_pixmap_style = "unselected_button_*.png"
+}
+
+
++ circular_progress {
+        left = 50%-450
+        top = 50%+310
+        id = "__timeout__"
+        width = 51
+        height = 51
+        center_bitmap = "circle.png"
+        tick_bitmap = "tick.png"
+        num_ticks = 8
+}
