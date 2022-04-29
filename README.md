@@ -1,2 +1,2 @@
 # minecraftGRUB
-A minecraft startup menu based grub for dual boot system
+A grub startup menu based on Minecraft main menu
